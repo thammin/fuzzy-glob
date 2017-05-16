@@ -1,0 +1,43 @@
+{
+  "name": "fuzzy-glob",
+  "version": "0.0.0",
+  "description": "Fuzzy search in file system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thammin/fuzzy-glob.git"
+  },
+  "keywords": [
+    "fuzzy",
+    "glob",
+    "search",
+    "fuse.js",
+    "match",
+    "files"
+  ],
+  "author": "Paul Young <thammin@live.co.uk> (https://github.com/thammin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thammin/fuzzy-glob/issues"
+  },
+  "homepage": "https://github.com/thammin/fuzzy-glob#readme",
+  "dependencies": {
+    "fuse.js": "^3.0.3",
+    "glob": "^7.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1"
+  },
+  "ava": {
+    "files": [
+      "test/*.js",
+      "!test/fixture/"
+    ]
+  }
+}
